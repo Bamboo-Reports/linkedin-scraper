@@ -116,6 +116,10 @@ Rows without a UUID, Name, or LinkedIn URL are skipped. A CSV missing the UUID c
 - `Strategy`
 - `Fetched Via`
 
+## Documentation
+
+- [Internals](documentation/internals.md): how the runner works under the hood (session handling, the three lookup strategies, company/title matching thresholds, status and confidence rules, pacing, and interrupt behaviour).
+
 ## Notes
 
 - The browser is visible by default because LinkedIn may require login, MFA, or manual review.
